@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Quality & Boutique</title>
+  <link rel="icon" href="./assest/img/logo.jpeg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./assest/css/style.css">
+</head>
+
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg nav_bg fixed-top p-0">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white fs-3 text-center" href="/index.html"><img src="./assest/img/logo.png"
+          alt="" width="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light pe-4" aria-current="page" href="/boy.html">BOYS WEARS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light pe-4" aria-current="page" href="/girl.html">GIRLS WEARS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="/accessories.html">ACCESSORIES</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+
+          <li class=" nav-item">
+            <a class="nav-link active text-light pe-4" aria-current="page" href="#about">ABOUT</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active text-light pe-4" aria-current="page" href="#contact">CONTACT</a>
+          </li>
+
+          <li class=" nav-item dropdown pe-4">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill text-white fs-5 p-0 m-0"></i> ACCOUNT
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/signup.html">Sign Up</a></li>
+              <hr class="m-0 p-0">
+              <li><a class="dropdown-item" href="/signin.html">Sign In</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="/cart.html"><i
+                class="bi bi-handbag-fill"></i> CART</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container pt-5">
+    <div class="row pt-5">
+      <div class="col-lg-8 col-md-8 col-sm-12 mt-3">
+        <div id="cart_container" class="p-4 shadow rounded">
+          <p class="fs-4 fw-bold">Shopping cart</p>
+          <div class="row pb-3 border-top border-bottom">
+            <div class="col-lg-2 col-md-3 col-sm-12 mt-3">
+              <div class="cart_info">
+                <img
+                  src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+                  alt="">
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12 mt-3">
+              <div>
+                <a href="#" class="text-black text-decoration-none fw-medium">Girls Wears</a>
+                <p class="size"><span class="text-secondary">size:</span> SM</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 mt-3">
+              <div>
+                <a href="#" class="text-decoration-none text-black fw-bold fs-5">&#8373; 1,200</a>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center pt-3 pb-2">
+              <button class="cart_btn"><i class="bi bi-trash3"></i> Remove</button>
+              <div class="d-flex align-items-center">
+                <button class="cart_btn"><i class="bi bi-dash-lg bg_pink text-white fs-5 p-2 rounded"></i></button>
+                <div class="px-3">
+                  <p class="m-0">1</p>
+                </div>
+                <button class="cart_btn"><i class="bi bi-plus-lg bg_pink text-white fs-5 p-2 rounded"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-4 col-md-4 col-sm-12 mt-3">
+        <div id="cart_container" class="p-4 shadow rounded">
+          <p class="fw-bold">CART SUMMARY</p>
+          <div class="container border-top border-bottom py-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="fw-medium m-0">subtotal</p>
+              <p class="fw-bold m-0">&#8373; 1,200</p>
+            </div>
+            <p class="m-0 size pt-2">Delivery fees not included yet.</p>
+          </div>
+          <a href="checkout.html"><button class="btns w-100 rounded mt-3 py-2">CHECKOUT (&#8373; 1,200)</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container shadow px-3 mt-3">
+      <div class="d-flex justify-content-between align-items-center">
+        <p class=" text-center py-3 px-3 m-0 fw-bold">You may also like</p>
+      </div>
+
+      <div class=" owl-carousel owl-theme pt-2 pb-3" id="you_may_like">
+
+      </div>
+
+      <div class="d-flex justify-content-end align-items-center">
+        <button class="owl_new_control"><i class="bi bi-arrow-right-square-fill text_pink fs-1"></i></button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section5 -->
+  <section>
+    <div class="container py-5" id="about">
+      <div class="row py-5">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="text-center">
+            <i class="bi bi-globe-americas display-2 text-secondary about"></i>
+            <h5 class="pt-4">Worldwide Shipping</h5>
+            <p class="pt-4">We Ship to anywhere in the world</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="text-center">
+            <i class="bi bi-person-standing-dress display-2 text-secondary about"></i>
+            <h5 class="pt-4">Best Quality</h5>
+            <p class="pt-4">We Provide the best quality Ever</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="text-center">
+            <i class="bi bi-bookmark-star display-2 text-secondary about"></i>
+            <h5 class="pt-4">Best Offers</h5>
+            <p class="pt-4">We give you at a Cheaper rate</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="text-center">
+            <i class="bi bi-lock display-2 text-secondary about"></i>
+            <h5 class="pt-4">Secure Payments</h5>
+            <p class="pt-4">Don't be afraid to shop on our website your payment is secured</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section6 -->
+  <section class="bg-black text-white">
+    <div class="container-fluid p-5">
+      <div class="row py-3">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <h2 class="fw-bold pb-5">Top Quality Boutique
+            & Collection</h2>
+          <h5>Best Quality Ever</h5>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 text-start">
+          <p class="fs-4">For Girls</p>
+          <ul class="forher_forhim p-0">
+            <li class="list-unstyled pb-1"><a href="#" class="text-secondary text-decoration-none">Jeans</a>
+            </li>
+            <li class="list-unstyled pb-1"><a href="#" class="text-secondary text-decoration-none">Tops and
+                Skirts</a>
+            </li>
+            <li class="list-unstyled pb-1"><a href="#" class="text-secondary text-decoration-none">Jackets</a>
+            </li>
+            <li class="list-unstyled pb-1"><a href="#" class="text-secondary text-decoration-none">Heels and
+                Flats</a>
+            </li>
+            <li class="list-unstyled"><a href="#" class="text-secondary text-decoration-none">Accessories</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12 text-start">
+          <p class="fs-4">For Boys</p>
+          <ul class="forher_forhim p-0">
+            <li class="list-unstyled pb-1"><a href="#" class="text-secondary text-decoration-none">Jeans</a>
+            </li>
+            <li class="list-unstyled pb-1"><a href="#" class="text-secondary text-decoration-none">Shirts and
+                Trouser</a>
+            </li>
+            <li class="list-unstyled pb-1"><a href="#" class="text-secondary text-decoration-none">Shoes</a>
+            </li>
+            <li class="list-unstyled pb-1"><a href="#" class="text-secondary text-decoration-none">Accessories</a>
+            </li>
+            <li class="list-unstyled"><a href="#" class="text-secondary text-decoration-none">Jackets</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12" id="contact">
+          <form action="">
+            <p class="fs-4 pb-2">Subscribe</p>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput" class="text-secondary">Your email address</label>
+            </div>
+            <button class="btns py-2 px-5 rounded me-3 mt-3">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="py-4 px-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="my-auto">Copyright &copy; 2023 Top Quality Boutique & Collection</p>
+        <div class="fs-5">
+          <i class="bi bi-whatsapp pe-3"></i>
+          <i class="bi bi-facebook pe-3"></i>
+          <i class="bi bi-instagram pe-3"></i>
+          <i class="bi bi-twitter pe-3"></i>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="./assest/js/app.js"></script>
+</body>
+
+</html>
