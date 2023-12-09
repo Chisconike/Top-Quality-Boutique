@@ -55,17 +55,184 @@
               <hr class="m-0 p-0">
               <li><a class="dropdown-item" href="/signin.html">Sign In</a></li>
             </ul>
+
+            <!-- <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">My Account</a></li>
+              <hr class="m-0 p-0">
+              <li><a class="dropdown-item" href="#">Orders</a></li>
+              <hr class="m-0 p-0">
+              <li><a class="dropdown-item" href="#">Inbox</a></li>
+              <hr class="m-0 p-0">
+              <li><a class="dropdown-item" href="#"><button class="btn">LOGOUT</button></a></li>
+            </ul> -->
+          </li>
+
+          <li class="nav-item pe-3 me-auto">
+            <a class="btn nav-link active text-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+              aria-controls="offcanvasExample">
+              <i class="bi bi-heart-fill"></i>
+            </a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link active text-light" aria-current="page" href="/cart.html"><i
-                class="bi bi-handbag-fill"></i> CART</a>
+                class="bi bi-handbag-fill"></i></a>
           </li>
 
         </ul>
       </div>
     </div>
   </nav>
+
+  <!-- Cart OffCanvas -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title m-auto" id="offcanvasExampleLabel">My Wishlist</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="border_pink d-flex justify-content-between align-items-center p-3 rounded mt-3">
+        <img
+          src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+          alt="..." height="" width="180px">
+        <div class="w-100">
+          <p class=" m-0">Boys Jeans</p>
+          <p class=" text-secondary m-0">Boy</p>
+          <div class="d-flex">
+            <p class="fw-bold m-0">&#8373; 100</p>
+          </div>
+          <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+            <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+            <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal"
+              data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+            <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="border_pink d-flex justify-content-between align-items-center p-3 rounded mt-3">
+        <img
+          src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+          alt="..." height="" width="180px">
+        <div class="w-100">
+          <p class=" m-0">Boys Jeans</p>
+          <p class=" text-secondary m-0">Boy</p>
+          <div class="d-flex">
+            <p class="fw-bold m-0">&#8373; 100</p>
+          </div>
+          <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+            <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+            <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal"
+              data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+            <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Boys Shoe</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="p-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-5 col-sm-12 mt-3">
+                <div class="d-flex align-items-start justify-content-between flex-column">
+                  <div class="w-100">
+                    <img
+                      src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+                      alt="" width="100%">
+
+                    <div class="pt-2 d-flex align-items-center justify-content-between w-100">
+                      <button class="border-0 bg-white prev"><i class="bi bi-chevron-left text_pink"></i></button>
+                      <div class="owl-carousel owl-theme w-75" id="details">
+                        <div class="item">
+                          <img
+                            src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+                            alt="" width="100%">
+                        </div>
+                        <div class="item">
+                          <img
+                            src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+                            alt="" width="100%">
+                        </div>
+                        <div class="item">
+                          <img
+                            src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+                            alt="" width="100%">
+                        </div>
+                        <div class="item">
+                          <img
+                            src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+                            alt="" width="100%">
+                        </div>
+                        <div class="item">
+                          <img
+                            src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+                            alt="" width="100%">
+                        </div>
+                      </div>
+                      <button class="border-0 bg-white forward"><i class="bi bi-chevron-right text_pink"></i></button>
+                    </div>
+                    <div class="border-top w-100 mt-3">
+                      <p class="m-0 pt-2 fw-medium">Share this product</p>
+                      <div class="pt-2">
+                        <a href="#" class="text-black pe-2"><button class="border-0 bg-white"><i
+                              class="bi bi-facebook fs-4"></i></button></a>
+                        <a href="#" class="text-black"><button class="border-0 bg-white"><i
+                              class="bi bi-twitter fs-4"></i></button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-3">
+                    <a href="#" class="text-decoration-none size">Report incorrect product information</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-8 col-md-7 col-sm-12 mt-3">
+                <div>
+                  <p class="fs-5">ADIDAS Essentials Embroidered Men</p>
+                  <p>Brand: <a href="#" class="text-decoration-none">Boys Wears</a></p>
+                  <div class="d-flex align-items-center border-top border-bottom py-1 orange">
+                    <div class="star fs-4">&#9733;</div>
+                    <div class="star fs-4">&#9733;</div>
+                    <div class="star fs-4">&#9733;</div>
+                    <div class="star fs-4">&#9733;</div>
+                    <div class="star fs-4">&#9733;</div>
+                    <div class="ps-2"><a href="#" class="text-decoration-none">1,240 ratings <span
+                          class="text-black">|</span> 46 answered questions
+                      </a></div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center pt-3">
+                    <p class="text-uppercase fw-medium m-0">Sizes available</p>
+                    <a href="#" class="text-decoration-none">Sizes Guide</a>
+                  </div>
+                  <div class="pt-2">
+                    <button class="border-1 bg-light px-3 py-2">S</button>
+                    <button class="border-1 bg-light px-3 py-2">M</button>
+                    <button class="border-1 bg-light px-3 py-2">L</button>
+                    <button class="border-1 bg-light px-3 py-2">XL</button>
+                    <button class="border-1 bg-light px-3 py-2 text-secondary">XXL</button>
+                    <button class="border-1 bg-light px-3 py-2 text-secondary">XXXL</button>
+                    <button class="border-1 bg-light px-3 py-2 text-secondary">XS</button>
+                  </div>
+                  <button class="text-uppercase btns mt-3 w-100">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="container-fluid py-5">
     <div class="container py-5">

@@ -18,8 +18,8 @@
   <!-- NavBar -->
   <nav class="navbar navbar-expand-lg nav_bg fixed-top p-0">
     <div class="container">
-      <a class="navbar-brand fw-bold text-white fs-3 text-center" href=""><img src="./assest/img/logo.png" alt=""
-          width="70px"></a>
+      <a class="navbar-brand fw-bold text-white fs-3 text-center" href="/index.html"><img src="./assest/img/logo.png"
+          alt="" width="70px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,13 +27,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-light pe-4" aria-current="page" href="#boys_section">BOYS WEARS</a>
+            <a class="nav-link active text-light pe-4" aria-current="page" href="/boy.html">BOYS WEARS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light pe-4" aria-current="page" href="#girls_section">GIRLS WEARS</a>
+            <a class="nav-link active text-light pe-4" aria-current="page" href="/girl.html">GIRLS WEARS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="#accessories_section">ACCESSORIES</a>
+            <a class="nav-link active text-light" aria-current="page" href="/accessories.html">ACCESSORIES</a>
           </li>
         </ul>
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
@@ -83,6 +83,7 @@
     </div>
   </nav>
 
+
   <!-- Cart OffCanvas -->
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
@@ -128,6 +129,7 @@
       </div>
     </div>
   </div>
+
 
 
   <!-- Modal -->
@@ -233,172 +235,169 @@
   </div>
 
 
-  <!-- section1 -->
-  <section>
-    <div class="container-fluid first_section">
-      <div class="conatiner sec1_text">
-        <h1 class="display-4 text-white fw-bold pb-4 mb-0">Top Quality Boutique <br>
-          & Collection</h1>
-        <p class="h3 text-white pb-3 m-0">Best Quality Ever</p>
-        <a href="#main"><button class="btn btn-light me-3 mt-3 btn1">SHOP NOW</button></a>
+  <div class="container">
+    <div class="row mt-5 pt-5 ">
+      <div class="col-lg-3 col-md-3 col-sm-12 mt-3">
+        <div class="shadow p-3">
+          <div class="p-3 w-100 my-2 side_control rounded account text_pink">
+            My Account
+          </div>
+          <div class="p-3 w-100 my-2 side_control rounded order text_pink">Orders
+          </div>
+          <div class="p-3 w-100 my-2 side_control rounded saved_items text_pink" data-bs-toggle="offcanvas"
+            href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Saved items
+          </div>
+          <div class="d-flex justify-content-center mt-3 border-top pt-3"><button
+              class="btns rounded w-100">LOGOUT</button>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Section2 -->
-
-  <section>
-    <!-- Thumbnail -->
-    <div class="container-fluid py-5 px-0">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mt-lg-0">
-          <div class="thumb1 p-5">
-            <div class="text-light">
-              <p class="h4 fw-bold pb-2">5% Off On Boys Wears</p>
-              <p class="fw-bold pb-2">What Are you waiting for come get your discount</p>
-              <a href="#boys_section"><button class="btn btn-light btn1">SHOP NOW</button></a>
+      <!-- Account overview -->
+      <div class="col-lg-9 col-md-9 col-sm-12 mt-3" id="account_section">
+        <div class="shadow p-3">
+          <div class="p-3">
+            <div class="w-100 border-bottom pb-3">
+              <h5>Account Overview</h5>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 mt-3">
+                <div class="border rounded p-3 ">
+                  <div class="d-flex justify-content-between align-items-center border-bottom pb-2">
+                    <h6>Account Details</h6>
+                    <i class="bi bi-pencil-fill text_pink"></i>
+                  </div>
+                  <div class="pt-2">
+                    <p class="m-0 pb-1">Emmanuel Okoh</p>
+                    <p class="text-secondary">topquality@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <!-- 
+              <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+                <div class="border rounded p-3">
+                  <div class="d-flex justify-content-between align-items-center border-bottom pb-2">
+                    <h6 class="">Address Book</h6>
+                    <i class="bi bi-pencil-fill text_pink"></i>
+                  </div>
+                  <div class="pt-3">
+                    <p class="m-0 pb-1">Your default shipping address:</p>
+                    <p class="text-secondary m-0 pt-1">Emmanuel Okoh</p>
+                    <p class="text-secondary m-0 pt-1">11, unknown rood off Baatsona road Spintex Accra Ghana</p>
+                    <p class="text-secondary m-0 pt-1">+233123456789</p>
+                  </div>
+                </div>
+              </div> -->
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mt-lg-0">
-          <div class="thumb2 p-5">
-            <div class="text-light">
-              <p class="h4 fw-bold pb-2">5% Off On Girls Wears</p>
-              <p class="fw-bold pb-2">What Are you waiting for come get your discount</p>
-              <a href="#girls_section"><button class="btn btn-light btn1">SHOP NOW</button></a>
+
+      <div class="col-lg-9 col-md-9 col-sm-12 mt-3" id="order_section">
+        <div class="shadow p-3">
+          <!-- For nav And Tabs  -->
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active text_pink" id="nav-home-tab" data-bs-toggle="tab"
+                data-bs-target="#open_order" type="button" role="tab" aria-controls="open_order"
+                aria-selected="true">OPEN
+                ORDERS (2)</button>
+              <button class="nav-link text_pink" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#close_order"
+                type="button" role="tab" aria-controls="close_order" aria-selected="false">CLOSED ORDERS
+                (2)</button>
+            </div>
+          </nav>
+
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="open_order" role="tabpanel" aria-labelledby="nav-home-tab"
+              tabindex="0">
+
+              <div class="d-flex justify-content-around align-items-start py-3">
+                <img
+                  src="https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE="
+                  alt="" width="100px">
+                <div>
+                  <p class="m-0">Boys sneaker Shoe size 24 blue and white color </p>
+                  <p class="text-secondary m-0">Order 3221345675</p>
+
+                  <div>
+                    <button class="bg-warning text-white text-center rounded m-0 mt-2 border-0 size">Still in
+                      Progress</button>
+                    <p class="m-0 pt-2">Still in Progress</p>
+                  </div>
+                </div>
+                <div>
+                  <button class="border-0 text_pink bg-white size">SEE DETAILS</button>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-around align-items-start border-top py-3">
+                <img
+                  src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+                  alt="" width="100px">
+                <div>
+                  <p class="m-0">Boys sneaker Shoe size 24 blue and white color </p>
+                  <p class="text-secondary m-0">Order 3221345675</p>
+
+                  <div>
+                    <button class="bg-warning text-white text-center rounded m-0 mt-2 border-0 size">Still in
+                      Progress</button>
+                    <p class="m-0 pt-2">Still in Progress</p>
+                  </div>
+                </div>
+                <div>
+                  <button class="border-0 text_pink bg-white size">SEE DETAILS</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="close_order" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+
+              <div class="d-flex justify-content-around align-items-start py-3">
+                <img
+                  src="https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE="
+                  alt="" width="100px">
+                <div>
+                  <p class="m-0">Boys sneaker Shoe size 24 blue and white color </p>
+                  <p class="text-secondary m-0">Order 3221345675</p>
+
+                  <div>
+                    <button class="bg-success text-white text-center rounded m-0 mt-2 border-0 size">Order
+                      Complected</button>
+                    <p class="m-0 pt-2">Order Complected</p>
+                  </div>
+                </div>
+                <div>
+                  <button class="border-0 text_pink bg-white size">SEE DETAILS</button>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-around align-items-start border-top py-3">
+                <img
+                  src="https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU="
+                  alt="" width="100px">
+                <div>
+                  <p class="m-0">Boys sneaker Shoe size 24 blue and white color </p>
+                  <p class="text-secondary m-0">Order 3221345675</p>
+
+                  <div>
+                    <button class="bg-danger text-white text-center rounded m-0 mt-2 border-0 size">Order
+                      Cancelled</button>
+                    <p class="m-0 pt-2">Order Cancelled</p>
+                  </div>
+                </div>
+                <div>
+                  <button class="border-0 text_pink bg-white size">SEE DETAILS</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-12 col-sm-12 mt-3 mt-lg-0">
-          <div class="thumb3 p-5">
-            <div class="text-light">
-              <p class="h4 fw-bold pb-2">5% Off On Any Accessories</p>
-              <p class="fw-bold pb-2">What Are you waiting for come get your discount</p>
-              <a href="#accessories_section"><button class="btn btn-light btn1">SHOP NOW</button></a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-    </div>
-  </section>
-
-  <!-- section3 -->
-  <section>
-    <div class="container-fluid bg-light p-5" id="main">
-      <!-- New Arrival Section -->
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center ">
-          <div class="w-75">
-            <hr class="divid">
-          </div>
-          <h2 class=" text-center py-1 px-3 head w-100 rounded-5">Features</h2>
-          <div class="w-75">
-            <hr class="divid">
-          </div>
-        </div>
-
-
-
-        <div class=" owl-carousel owl-theme pt-5 pb-3" id="new_arrival">
-
-        </div>
-
-        <div class="d-flex justify-content-end align-items-center">
-          <button class="owl_new_control"><i class="bi bi-arrow-right-square-fill text_pink fs-1"></i></button>
-        </div>
-      </div>
-
-      <!-- Boys Section -->
-      <div class="container py-5" id="boys_section">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="w-75">
-            <hr class="divid">
-          </div>
-          <h2 class=" text-center py-1 px-3 head w-100 rounded-5">Boys&nbsp;Wears</h2>
-          <div class="w-75">
-            <hr class="divid">
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row" id="boys_container">
-
-          </div>
-          <div>
-            <a href="/boy.html" class="text-decoration-none">
-              <button class="btns d-block w-100 mt-3 rounded">View More</button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Girls Section -->
-      <div class="container py-5" id="girls_section">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="w-75">
-            <hr class="divid">
-          </div>
-          <h2 class=" text-center py-1 px-3 head w-100 rounded-5">Girls&nbsp;Wears</h2>
-          <div class="w-75">
-            <hr class="divid">
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row" id="girls_container">
-
-          </div>
-          <div>
-            <a href="/girl.html" class="text-decoration-none">
-              <button class="btns d-block w-100 mt-3 rounded">View More</button>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Accessories Section -->
-      <div class="container py-5" id="accessories_section">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="w-100">
-            <hr class="divid">
-          </div>
-          <h2 class=" text-center py-1 px-3 head w-100 rounded-5">Accessories</h2>
-          <div class="w-100">
-            <hr class="divid">
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row" id="accessories_container">
-
-          </div>
-          <div>
-            <a href="/accessories.html" class="text-decoration-none">
-              <button class="btns d-block w-100 mt-3 rounded">View More</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section4 -->
-  <section>
-    <div class="container-fluid forth_section">
-      <div class="conatiner sec1_text ps-4">
-        <p class="h5 text-white">Limited Time Offer</p>
-        <h1 class="display-4 text-white fw-bold pb-2 pt-4">Special Edition</h1>
-        <p class="h6 text-white pb-2">Come shop for your kids now!!!
-        </p>
-        <p class="text-white fs-5 pb-4">Buy any item at 5% Discount, Use Code Top Quality</p>
-        <a href="#main"><button class="btn btn-light me-3 btn1">SHOP NOW</button></a>
-      </div>
-    </div>
-  </section>
+  </div>
+  </div>
 
 
   <!-- section5 -->

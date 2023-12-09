@@ -20,6 +20,10 @@
   background: var(--pink);
 }
 
+.border_pink {
+  border: 1px solid var(--pink);
+}
+
 /* Navbar */
 
 .nav_bg {
@@ -207,4 +211,10 @@ hr.divid {
 .feedback:hover {
   background: var(--pink);
   color: var(--white) !important;
+}
+
+/* Account Page */
+.side_control:hover {
+  background: var(--pink);
+  color: var(--white);
 }

@@ -63,29 +63,25 @@ $(document).ready(function () {
     arrival.append(`
     <div class="item">
       <div class="card">
-      <a href="/details.html" class="text-decoration-none text-black">
-          <div class="show d-flex justify-content-between container-fluid">
-            <button class=" btn bg-white shadow rounded-pill">New Arrival !</button>
-          </div>
-          <img
-            src="${item.img}"
-            // class="card-img-top" alt="..." height="200px" width="100%">
-          <div class="card-body">
-            <p class="card-text mb-2">${item.name}</p>
-            <p class="card-text text-secondary m-0 pb-1">${item.category}</p>
-            <div class="d-flex">
-              <p class="fw-bold m-0 pb-0">${item.price}</p>
+              <div class="show d-flex justify-content-between container-fluid">
+                <button class=" btn bg-white shadow rounded-pill text_pink size fw-bold">New Arrival</button>
+              </div>
+              <img
+                src="${item.img}"
+                class="card-img-top" alt="..." height="" width="100%">
+              <div class="card-body">
+                <p class="card-text mb-2">${item.name}</p>
+                <p class="card-text text-secondary m-0 pb-1">${item.category}</p>
+                <div class="d-flex">
+                  <p class="fw-bold m-0 pb-0">${item.price}</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+       
+          <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+                <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+                <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+                  <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
             </div>
-            <div class="d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center">
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-            </div>
-          </a>
-            <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
           </div>
         </div>
       </div>
@@ -158,7 +154,7 @@ $(document).ready(function () {
 
   boys_stock.forEach(item => {
     boys_container.append(`
-    <div class="col-lg-3 col-md-4 col-sm-12 mt-3 mt-md-5">
+    <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
       <div class="card shadow">
         <img
           src="${item.img}"
@@ -170,14 +166,12 @@ $(document).ready(function () {
             <p class="fw-bold m-0">${item.price}</p>
           </div>
           <div class="d-flex justify-content-between align-items-center">
-          <div class="d-flex align-items-center">
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
+         
+          <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+          <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+          <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+            <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
           </div>
-          <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
         </div>
         </div>
       </div>
@@ -265,7 +259,7 @@ $(document).ready(function () {
 
   boys_box.forEach(item => {
     boys_html.append(`
-     <div class="col-lg-3 col-md-4 col-sm-12 mt-3 mt-md-5">
+     <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
        <div class="card shadow border-0">
          <img
            src="${item.img}"
@@ -277,14 +271,11 @@ $(document).ready(function () {
              <p class="fw-bold m-0">${item.price}</p>
            </div>
            <div class="d-flex justify-content-between align-items-center">
-           <div class="d-flex align-items-center">
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-            </div>
-           <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+           <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+           <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+             <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          </div>
          </div>
          </div>
        </div>
@@ -298,56 +289,56 @@ $(document).ready(function () {
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Girl',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Girl',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Accessories',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
   ]
 
   girls_stock.forEach(item => {
     girls_container.append(`
-    <div class="col-lg-3 col-md-4 col-sm-12 mt-3 mt-md-5">
+    <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
       <div class="card shadow">
         <img
           src="${item.img}"
@@ -359,14 +350,11 @@ $(document).ready(function () {
             <p class="fw-bold m-0">${item.price}</p>
           </div>
           <div class="d-flex justify-content-between align-items-center">
-          <div class="d-flex align-items-center">
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-          </div>
-          <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+                <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+                <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+                  <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+            </div>
         </div>
         </div>
       </div>
@@ -382,80 +370,80 @@ $(document).ready(function () {
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Girl',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Girl',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Accessories',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Girls Jeans',
       category: 'Boy',
     },
   ]
 
   girls_box.forEach(item => {
     girls_html.append(`
-     <div class="col-lg-3 col-md-4 col-sm-12 mt-3 mt-md-5">
+     <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
        <div class="card shadow border-0">
          <img
            src="${item.img}"
@@ -467,14 +455,11 @@ $(document).ready(function () {
              <p class="fw-bold m-0">${item.price}</p>
            </div>
            <div class="d-flex justify-content-between align-items-center">
-           <div class="d-flex align-items-center">
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-           </div>
-           <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+           <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+           <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+             <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          </div>
          </div>
          </div>
        </div>
@@ -488,56 +473,56 @@ $(document).ready(function () {
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Girl',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Girl',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Accessories',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
   ]
 
   accessories_stock.forEach(item => {
     accessories_container.append(`
-    <div class="col-lg-3 col-md-4 col-sm-12 mt-3 mt-md-5">
+    <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
       <div class="card shadow">
         <img
           src="${item.img}"
@@ -549,14 +534,11 @@ $(document).ready(function () {
             <p class="fw-bold m-0">${item.price}</p>
           </div>
           <div class="d-flex justify-content-between align-items-center">
-          <div class="d-flex align-items-center">
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
+          <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+          <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+          <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+            <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
           </div>
-          <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
         </div>
         </div>
       </div>
@@ -571,80 +553,80 @@ $(document).ready(function () {
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Girl',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Girl',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Accessories',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
-      name: 'Boys Jeans',
+      name: 'Accessories',
       category: 'Boy',
     },
   ]
 
   accessories_box.forEach(item => {
     accessories_html.append(`
-     <div class="col-lg-3 col-md-4 col-sm-12 mt-3 mt-md-5">
+     <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
        <div class="card shadow border-0">
          <img
            src="${item.img}"
@@ -656,14 +638,11 @@ $(document).ready(function () {
              <p class="fw-bold m-0">${item.price}</p>
            </div>
            <div class="d-flex justify-content-between align-items-center">
-           <div class="d-flex align-items-center">
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-              <div class="star">&#9733;</div>
-           </div>
-           <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+           <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+           <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+             <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+            </div>
          </div>
          </div>
        </div>
@@ -768,14 +747,11 @@ $(document).ready(function () {
             <p class="fw-bold m-0 pb-0">${item.price}</p>
           </div>
           <div class="d-flex justify-content-between align-items-center">
-          <div class="d-flex align-items-center">
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-            <div class="star">&#9733;</div>
-          </div>
+          <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+          <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+          <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
             <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          </div>
           </div>
         </div>
       </div>
@@ -794,8 +770,6 @@ $(document).ready(function () {
   });
 
 
-
-
   // Details owl button control
   var details = $("#details").owlCarousel();
 
@@ -808,17 +782,42 @@ $(document).ready(function () {
   });
 
 
-  // For Star
-  $('.card .star').click(function () {
-    // Get the index of the clicked star within the product
-    var index = $(this).index();
+  // For Account OverView
 
-    // Toggle the 'orange' class for stars up to and including the clicked star within the product
-    $(this).prevAll('.star:lt(' + (index + 1) + ')').toggleClass('orange');
+  $('#order_section').hide()
+  $('.account').addClass('bg_pink')
+  $('.account').css('color', 'white')
 
-    // Remove the 'orange' class for stars after the clicked star within the product
-    $(this).nextAll('.star:gt(' + index + ')').removeClass('orange');
-  });
+  $('.account').click(function () {
+    $(this).toggleClass('bg_pink');
+    $(this).css('color', $(this).hasClass('bg_pink') ? 'white' : '');
+    $(".order").removeClass('bg_pink').css('color', '');
+    $(".saved_items").removeClass('bg_pink').css('color', '');
+    $('#account_section').show()
+    $('#order_section').hide()
+  })
+
+  $('.order').click(function () {
+    $(this).toggleClass('bg_pink');
+    $(this).css('color', $(this).hasClass('bg_pink') ? 'white' : '');
+    $(".account").removeClass('bg_pink').css('color', '');
+    $(".saved_items").removeClass('bg_pink').css('color', '');
+    $('#order_section').show()
+    $('#account_section').hide()
+  })
+  $('.saved_items').click(function () {
+    $(this).toggleClass('bg_pink');
+    $(this).css('color', $(this).hasClass('bg_pink') ? 'white' : '');
+    $(".account").removeClass('bg_pink').css('color', '');
+    $(".order").removeClass('bg_pink').css('color', '');
+    $('#order_section').show()
+    $('#account_section').hide()
+  })
+
+
+
+
+
 
 
 });
