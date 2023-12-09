@@ -68,7 +68,7 @@ $(document).ready(function () {
               </div>
               <img
                 src="${item.img}"
-                class="card-img-top" alt="..." height="" width="100%">
+                class="card-img-top" alt="..." width="100%">
               <div class="card-body">
                 <p class="card-text mb-2">${item.name}</p>
                 <p class="card-text text-secondary m-0 pb-1">${item.category}</p>
@@ -158,7 +158,7 @@ $(document).ready(function () {
       <div class="card shadow">
         <img
           src="${item.img}"
-          class="card-img-top" alt="..." height="200px" width="100%">
+          class="card-img-top" alt="..." width="100%">
         <div class="card-body">
           <p class="card-text m-0">${item.name}</p>
           <p class="card-text text-secondary m-0">${item.category}</p>
@@ -263,7 +263,7 @@ $(document).ready(function () {
        <div class="card shadow border-0">
          <img
            src="${item.img}"
-           class="card-img-top" alt="..." height="200px" width="100%">
+           class="card-img-top" alt="..." width="100%">
          <div class="card-body">
            <p class="card-text m-0">${item.name}</p>
            <p class="card-text text-secondary m-0">${item.category}</p>
@@ -342,7 +342,7 @@ $(document).ready(function () {
       <div class="card shadow">
         <img
           src="${item.img}"
-          class="card-img-top" alt="..." height="200px" width="100%">
+          class="card-img-top" alt="..." width="100%">
         <div class="card-body">
           <p class="card-text m-0">${item.name}</p>
           <p class="card-text text-secondary m-0">${item.category}</p>
@@ -447,7 +447,7 @@ $(document).ready(function () {
        <div class="card shadow border-0">
          <img
            src="${item.img}"
-           class="card-img-top" alt="..." height="200px" width="100%">
+           class="card-img-top" alt="..." width="100%">
          <div class="card-body">
            <p class="card-text m-0">${item.name}</p>
            <p class="card-text text-secondary m-0">${item.category}</p>
@@ -526,7 +526,7 @@ $(document).ready(function () {
       <div class="card shadow">
         <img
           src="${item.img}"
-          class="card-img-top" alt="..." height="200px" width="100%">
+          class="card-img-top" alt="..." width="100%">
         <div class="card-body">
           <p class="card-text m-0">${item.name}</p>
           <p class="card-text text-secondary m-0">${item.category}</p>
@@ -630,7 +630,7 @@ $(document).ready(function () {
        <div class="card shadow border-0">
          <img
            src="${item.img}"
-           class="card-img-top" alt="..." height="200px" width="100%">
+           class="card-img-top" alt="..." width="100%">
          <div class="card-body">
            <p class="card-text m-0">${item.name}</p>
            <p class="card-text text-secondary m-0">${item.category}</p>
@@ -813,12 +813,6 @@ $(document).ready(function () {
     $('#order_section').show()
     $('#account_section').hide()
   })
-
-
-
-
-
-
 
 });
 
