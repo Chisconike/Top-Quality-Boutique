@@ -78,9 +78,9 @@ $(document).ready(function () {
                 <div class="d-flex justify-content-between align-items-center">
        
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
-                <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
-                <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
-                  <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+                <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+                <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+                  <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
             </div>
           </div>
         </div>
@@ -167,9 +167,9 @@ $(document).ready(function () {
           </div>
           <div class="d-flex justify-content-between align-items-center">
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
-          <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
-          <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
-            <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+          <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+            <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
           </div>
         </div>
         </div>
@@ -271,9 +271,9 @@ $(document).ready(function () {
            </div>
            <div class="d-flex justify-content-between align-items-center">
            <div class="d-flex justify-content-around align-items-center w-100 mt-3">
-           <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
-           <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
-             <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+           <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+           <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+             <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
           </div>
          </div>
          </div>
@@ -350,9 +350,9 @@ $(document).ready(function () {
           </div>
           <div class="d-flex justify-content-between align-items-center">
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
-                <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
-                <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
-                  <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+                <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+                <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+                  <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
             </div>
         </div>
         </div>
@@ -455,9 +455,9 @@ $(document).ready(function () {
            </div>
            <div class="d-flex justify-content-between align-items-center">
            <div class="d-flex justify-content-around align-items-center w-100 mt-3">
-           <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
-           <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
-             <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+           <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+           <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+             <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
           </div>
          </div>
          </div>
@@ -534,9 +534,9 @@ $(document).ready(function () {
           </div>
           <div class="d-flex justify-content-between align-items-center">
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
-          <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
-          <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
-            <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+          <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+            <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
           </div>
         </div>
         </div>
@@ -638,9 +638,9 @@ $(document).ready(function () {
            </div>
            <div class="d-flex justify-content-between align-items-center">
            <div class="d-flex justify-content-around align-items-center w-100 mt-3">
-           <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
-           <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
-             <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+           <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+           <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+             <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
             </div>
          </div>
          </div>
@@ -747,9 +747,9 @@ $(document).ready(function () {
           </div>
           <div class="d-flex justify-content-between align-items-center">
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
-          <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
-          <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
-            <button class="btn shadow rounded-circle bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+          <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+            <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
           </div>
           </div>
         </div>
