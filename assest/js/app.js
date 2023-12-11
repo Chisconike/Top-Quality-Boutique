@@ -154,7 +154,7 @@ $(document).ready(function () {
 
   boys_stock.forEach(item => {
     boys_container.append(`
-    <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
+    <div class="col-lg-3 col-md-4 col-6 mt-3 mt-md-5">
       <div class="card shadow">
         <img
           src="${item.img}"
@@ -166,7 +166,6 @@ $(document).ready(function () {
             <p class="fw-bold m-0">${item.price}</p>
           </div>
           <div class="d-flex justify-content-between align-items-center">
-         
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
           <button class="btn shadow rounded-circle bg-white heart"><i class="bi bi-heart text_pink"></i></button>
           <button class="btn shadow rounded-circle bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
@@ -259,7 +258,7 @@ $(document).ready(function () {
 
   boys_box.forEach(item => {
     boys_html.append(`
-     <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
+     <div class="col-lg-3 col-md-4 col-6 mt-3 mt-md-5">
        <div class="card shadow border-0">
          <img
            src="${item.img}"
@@ -338,7 +337,7 @@ $(document).ready(function () {
 
   girls_stock.forEach(item => {
     girls_container.append(`
-    <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
+    <div class="col-lg-3 col-md-4 col-6 mt-3 mt-md-5">
       <div class="card shadow">
         <img
           src="${item.img}"
@@ -443,7 +442,7 @@ $(document).ready(function () {
 
   girls_box.forEach(item => {
     girls_html.append(`
-     <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
+     <div class="col-lg-3 col-md-4 col-6 mt-3 mt-md-5">
        <div class="card shadow border-0">
          <img
            src="${item.img}"
@@ -522,7 +521,7 @@ $(document).ready(function () {
 
   accessories_stock.forEach(item => {
     accessories_container.append(`
-    <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
+    <div class="col-lg-3 col-md-4 col-6 mt-3 mt-md-5">
       <div class="card shadow">
         <img
           src="${item.img}"
@@ -626,7 +625,7 @@ $(document).ready(function () {
 
   accessories_box.forEach(item => {
     accessories_html.append(`
-     <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-5">
+     <div class="col-lg-3 col-md-4 col-6 mt-3 mt-md-5">
        <div class="card shadow border-0">
          <img
            src="${item.img}"

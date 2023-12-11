@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden !important;
+}
+
 :root {
   --blue: #145E8B;
   --black: #000000;
