@@ -222,3 +222,12 @@ hr.divid {
   background: var(--pink);
   color: var(--white);
 }
+
+/* Order Success */
+
+.order_success {
+  height: 90vh;
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
