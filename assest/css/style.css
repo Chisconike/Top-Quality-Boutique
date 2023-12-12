@@ -34,6 +34,15 @@ body {
   background: var(--pink) !important;
 }
 
+.control:hover {
+  background: var(--pink);
+  color: var(--white);
+}
+
+nav #navbarSupportedContent ul li a {
+  font-size: 14px;
+}
+
 /* First Section */
 .first_section {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('/assest/img/home.jpg') no-repeat fixed center/cover !important;
@@ -230,4 +239,13 @@ hr.divid {
   display: grid;
   place-items: center;
   margin: auto;
+}
+
+/* brands */
+.brand_check {
+  height: 140px;
+}
+
+.category {
+  top: 100px !important;
 }

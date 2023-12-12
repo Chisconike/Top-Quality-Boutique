@@ -74,11 +74,16 @@
             </a>
           </li>
 
-          <li class="nav-item">
+          <li class="nav-item pe-3">
             <a class="nav-link active text-light" aria-current="page" href="/cart.html"><i
                 class="bi bi-handbag-fill"></i></a>
           </li>
 
+          <li class="nav-item pe-3">
+            <a href="./wholesale.html">
+              <button class="btn btn-outline-light size">WholeSale</button>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -236,8 +241,9 @@
   </div>
 
 
+
   <div class="container-fluid py-5">
-    <div class="container py-5">
+    <div class="container-fluid py-5">
       <div class="d-flex justify-content-between align-items-center">
         <div class="w-100">
           <hr class="divid">
@@ -247,11 +253,136 @@
           <hr class="divid">
         </div>
       </div>
-      <div class="row" id="accessories_html">
+      <!-- Control -->
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 mt-3">
+          <div class="shadow p-3 mt-5 sticky-top category">
+            <div class="d-flex justify-content-between align-items-center pb-2">
+              <p class="m-0 text-uppercase size fw-bold">Category</p>
+              <a href="#" class="text-decoration-none text_pink text-uppercase size fw-bold">Reset</a>
+            </div>
+            <p class="m-0 p-2 control">New Arrival</p>
+            <p class="m-0 p-2 control">Trending</p>
+            <p class="m-0 p-2 control">Available</p>
+            <hr>
+            <div>
+              <p class="m-0 pb-2 text-uppercase size fw-bold">Brand</p>
+              <input class="form-control me-2" type="search" placeholder="Search Brand" aria-label="Search">
+              <div class="overflow-y-scroll brand_check">
+                <div class="form-check pt-2">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Gucci
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Versace
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    balenciaga
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Hermès
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Dior
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Addidas
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Zara
+                  </label>
+                </div>
+              </div>
+            </div>
 
+            <div>
+              <div class="d-flex justify-content-between align-items-center pt-3">
+                <p class="m-0 text-uppercase size fw-bold">Age</p>
+                <a href="#" class="text-decoration-none text_pink text-uppercase size fw-bold">Apply</a>
+              </div>
+              <div class="d-flex justify-content-between align-items-center pb-2 pt-2">
+                <div class="input-group mb-3">
+                  <input type="number" class="form-control" placeholder="From" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                </div>
+                <p class="px-2">-</p>
+                <div class="input-group mb-3">
+                  <input type="number" class="form-control" placeholder="To" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center pb-2 ">
+              <p class="m-0 text-uppercase size fw-bold">Price</p>
+              <a href="#" class="text-decoration-none text_pink text-uppercase size fw-bold">Apply</a>
+            </div>
+            <div class="d-flex justify-content-between align-items-center pb-2 pt-2">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">&#8373;</span>
+                <input type="number" class="form-control" placeholder="price" aria-label="Username"
+                  aria-describedby="basic-addon1">
+              </div>
+              <p class="px-2">-</p>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">&#8373;</span>
+                <input type="number" class="form-control" placeholder="price" aria-label="Username"
+                  aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div>
+              <p class="m-0 text-uppercase size fw-bold">Discount percentage</p>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  5%
+                </label>
+              </div>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  4%
+                </label>
+              </div>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  3%
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 mt-3">
+          <div class="row" id="accessories_html">
+
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  </div>
+
+
 
   <!-- Footer -->
 
