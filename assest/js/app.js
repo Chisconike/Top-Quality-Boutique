@@ -26,36 +26,42 @@ $(document).ready(function () {
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Boy',
+      items: 10
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Boy',
+      items: 5
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Girl',
+      items: 3
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Accessories',
+      items: 1
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Boy',
+      items: 0
     },
   ]
 
@@ -75,6 +81,11 @@ $(document).ready(function () {
                 <div class="d-flex">
                   <p class="fw-bold m-0 pb-0">${item.price}</p>
                 </div>
+                <p class="m-0 size pt-2">${item.items} stock left</p>
+                <div class="progress mt-2" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
+                  <div class="progress-bar bg_pink" style="width: 100%"></div>
+                </div>
+
                 <div class="d-flex justify-content-between align-items-center">
        
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
@@ -107,48 +118,56 @@ $(document).ready(function () {
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Accessories',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
   ]
 
@@ -164,6 +183,10 @@ $(document).ready(function () {
           <p class="card-text text-secondary m-0">${item.category}</p>
           <div class="d-flex">
             <p class="fw-bold m-0">${item.price}</p>
+          </div>
+          <p class="m-0 size pt-2">${item.items} stock left</p>
+          <div class="progress mt-2" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
+            <div class="progress-bar bg_pink" style="width: 100%"></div>
           </div>
           <div class="d-flex justify-content-between align-items-center">
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
@@ -187,72 +210,84 @@ $(document).ready(function () {
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Accessories',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Boys Jeans',
       category: 'Boy',
+      items: 20
     },
   ]
 
@@ -268,6 +303,10 @@ $(document).ready(function () {
            <p class="card-text text-secondary m-0">${item.category}</p>
            <div class="d-flex">
              <p class="fw-bold m-0">${item.price}</p>
+           </div>
+           <p class="m-0 size pt-2">${item.items} stock left</p>
+           <div class="progress mt-2" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
+             <div class="progress-bar bg_pink" style="width: 100%"></div>
            </div>
            <div class="d-flex justify-content-between align-items-center">
            <div class="d-flex justify-content-around align-items-center w-100 mt-3">
@@ -290,48 +329,56 @@ $(document).ready(function () {
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Accessories',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
   ]
 
@@ -347,6 +394,10 @@ $(document).ready(function () {
           <p class="card-text text-secondary m-0">${item.category}</p>
           <div class="d-flex">
             <p class="fw-bold m-0">${item.price}</p>
+          </div>
+          <p class="m-0 size pt-2">${item.items} stock left</p>
+          <div class="progress mt-2" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
+            <div class="progress-bar bg_pink" style="width: 100%"></div>
           </div>
           <div class="d-flex justify-content-between align-items-center">
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
@@ -371,72 +422,84 @@ $(document).ready(function () {
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Accessories',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Girls Jeans',
       category: 'Boy',
+      items: 20
     },
   ]
 
@@ -452,6 +515,10 @@ $(document).ready(function () {
            <p class="card-text text-secondary m-0">${item.category}</p>
            <div class="d-flex">
              <p class="fw-bold m-0">${item.price}</p>
+           </div>
+           <p class="m-0 size pt-2">${item.items} stock left</p>
+           <div class="progress mt-2" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
+             <div class="progress-bar bg_pink" style="width: 100%"></div>
            </div>
            <div class="d-flex justify-content-between align-items-center">
            <div class="d-flex justify-content-around align-items-center w-100 mt-3">
@@ -474,48 +541,56 @@ $(document).ready(function () {
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Accessories',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
   ]
 
@@ -531,6 +606,10 @@ $(document).ready(function () {
           <p class="card-text text-secondary m-0">${item.category}</p>
           <div class="d-flex">
             <p class="fw-bold m-0">${item.price}</p>
+          </div>
+          <p class="m-0 size pt-2">${item.items} stock left</p>
+          <div class="progress mt-2" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
+            <div class="progress-bar bg_pink" style="width: 100%"></div>
           </div>
           <div class="d-flex justify-content-between align-items-center">
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
@@ -554,72 +633,84 @@ $(document).ready(function () {
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Accessories',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
       price: '&#8373; 100',
       name: 'Accessories',
       category: 'Boy',
+      items: 20
     },
   ]
 
@@ -635,6 +726,10 @@ $(document).ready(function () {
            <p class="card-text text-secondary m-0">${item.category}</p>
            <div class="d-flex">
              <p class="fw-bold m-0">${item.price}</p>
+           </div>
+           <p class="m-0 size pt-2">${item.items} stock left</p>
+           <div class="progress mt-2" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
+             <div class="progress-bar bg_pink" style="width: 100%"></div>
            </div>
            <div class="d-flex justify-content-between align-items-center">
            <div class="d-flex justify-content-around align-items-center w-100 mt-3">
@@ -699,36 +794,42 @@ $(document).ready(function () {
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Boy',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Girl',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Accessories',
+      items: 20
     },
     {
       img: 'https://media.istockphoto.com/id/1043534738/photo/childrens-sneakers-for-sport.jpg?s=612x612&w=0&k=20&c=xUc4pUZQ6WIOQYl758P2tEkjjqpJo2kPCj3b-TNlywE=',
       price: '&#8373; 100',
       name: 'boys Shoes',
       category: 'Boy',
+      items: 20
     },
   ]
 
@@ -744,6 +845,10 @@ $(document).ready(function () {
           <p class="card-text text-secondary m-0 pb-1">${item.category}</p>
           <div class="d-flex">
             <p class="fw-bold m-0 pb-0">${item.price}</p>
+          </div>
+          <p class="m-0 size pt-2">${item.items} stock left</p>
+          <div class="progress mt-2" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
+            <div class="progress-bar bg_pink" style="width: 100%"></div>
           </div>
           <div class="d-flex justify-content-between align-items-center">
           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
