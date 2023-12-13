@@ -918,6 +918,130 @@ $(document).ready(function () {
     $('#account_section').hide()
   })
 
+
+  // WholeSale
+
+
+  // Boys HTML
+  let wholesale_html = $('#wholesale')
+  let wholesale_box = [
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Boy',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Girl',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Boy',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Girl',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Accessories',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Boy',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Boy',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Boy',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Boy',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Boy',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Boy',
+      items: 20,
+    },
+    {
+      img: 'https://media.istockphoto.com/id/1404034854/photo/blank-black-and-white-man-pants-mock-up-side-view.jpg?s=612x612&w=0&k=20&c=NlaaDpOlIQ-4cWbrKiOJe2cHGbg9dKUL_iffyYpJLVU=',
+      price: '&#8373; 100',
+      name: 'Boys Jeans',
+      category: 'Boy',
+      items: 20,
+    },
+  ]
+
+  wholesale_box.forEach(item => {
+    wholesale_html.append(`
+     <div class="col-lg-3 col-md-4 col-6 mt-3 mt-md-5">
+       <div class="card shadow border-0">
+         <img
+           src="${item.img}"
+           class="card-img-top" alt="..." width="100%">
+         <div class="card-body">
+           <p class="card-text m-0">${item.name}</p>
+           <p class="card-text text-secondary m-0">${item.category}</p>
+           <div class="d-flex">
+             <p class="fw-bold m-0">${item.price}</p>
+           </div>
+           <p class="m-0 size pt-2">${item.items} stock left</p>
+           <div class="progress mt-2" role="progressbar" aria-label="Example 5px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 8px">
+             <div class="progress-bar bg_pink" style="width: 100%"></div>
+           </div>
+           <div class="d-flex justify-content-between align-items-center">
+           <div class="d-flex justify-content-around align-items-center w-100 mt-3">
+           <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white heart"><i class="bi bi-heart text_pink"></i></button>
+           <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-eye text_pink"></i></button>
+             <button class="btn shadow py-0 py-md-2 px-1 px-md-3 bg-white"><i class="bi bi-handbag-fill text_pink"></i></button>
+          </div>
+         </div>
+         </div>
+       </div>
+     </div>
+     `)
+  })
+
+
 });
 
 
